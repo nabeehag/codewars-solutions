@@ -1,3 +1,7 @@
+// ==========================
+// INSTRUCTIONS
+// ==========================
+
 // Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 
 // For example,
@@ -12,7 +16,9 @@
 
 // Hint: Don't forget to check for bad values like null/undefined
 
-// My solution:
+// ==========================
+// MY SOLUTION
+// ==========================
 
 function countSheeps(sheep) {
     //   iterate through the array one at a time and check if the value is equal to true and add 1 to a total count, and do nothing if it is not true
@@ -25,7 +31,10 @@ function countSheeps(sheep) {
       return total
     }
 
-// Other solutions
+
+// ==========================
+// OTHER SOLUTION
+// ==========================
 
 function countSheeps(arrayOfSheeps) {
     return arrayOfSheeps.filter(Boolean).length;
