@@ -25,5 +25,5 @@ let quarterOf = (month) => {
 // OTHER SOLUTIONS
 // ==========================
 
-let quarterOf = m => Math.ceil(m/3);
+let quarterOfYear = m => Math.ceil(m/3);
 
