@@ -21,7 +21,7 @@ function rainAmount(mm){
 
 
 // ==========================
-// OTHER SOLUTIONS
+// OTHER SOLUTIONS 
 // ==========================
 
 function rainAmount(mm){
