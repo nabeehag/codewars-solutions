@@ -14,5 +14,5 @@ let square = num => num ** 2
 // OTHER SOLUTIONS
 // ==========================
 
-let square = (n) => n * n;
+let square2 = (n) => n * n;
 
