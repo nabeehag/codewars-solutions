@@ -30,7 +30,7 @@ var humanYearsCatYearsDogYears = function(humanYears) {
     let catYears = humanYears < 2 ? 15 : humanYears < 3 ? 15 + 9 : 15 + 9 + 4*(humanYears - 2);
     let dogYears = humanYears < 2 ? 15 : humanYears < 3 ? 15 + 9 : 15 + 9 + 5*(humanYears - 2);
     return [humanYears,catYears,dogYears];
-  }
+}
 
 // ==========================
 // OTHER SOLUTIONS
@@ -40,4 +40,4 @@ var humanYearsCatYearsDogYears = function(y) {
     if (y == 1) return [1, 15, 15]
     if (y == 2) return [2, 24, 24]
     return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
-  }
+}
