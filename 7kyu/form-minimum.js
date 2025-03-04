@@ -16,11 +16,11 @@
 
 function minValue(values){
     let uniqueOrderedValues = [...new Set(values)].sort((a, b) => a - b)
-    let string = ''
+    let str = ''
     for(let x in uniqueOrderedValues){
-      string += uniqueOrderedValues[x]
+      str += uniqueOrderedValues[x]
     }
-    return Number(string)
+    return Number(str)
 }
 
 // ==========================
