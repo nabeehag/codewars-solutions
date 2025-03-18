@@ -13,6 +13,6 @@
 // MY SOLUTION
 // ==========================
 
-function plural(n) {
-    return n != 1;
+function plural(number) {
+    return number != 1;
 }
